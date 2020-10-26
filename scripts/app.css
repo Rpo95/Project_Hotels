@@ -1,0 +1,73 @@
+body {
+  background: url(../images/Eclipse.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero {
+  background: transparent;
+}
+
+.hero .hero-body .container .title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.hero .hero-body .container .subtitle {
+  color: seashell;
+  text-align: center;
+  font-size: 22px;
+}
+
+.hero .hero-body .container .subtitle strong {
+  color: white;
+}
+
+.field .control .icon {
+  border-color: black;
+}
+
+.field .control .input {
+  background-color: white;
+  border-color: black;
+}
+
+.navbar {
+  background: linear-gradient(70deg, #ea5455, white, #ea5455);
+  justify-content: center;
+  padding: 5px 0px;
+}
+
+.navbar .navbar-item {}
+
+.card {
+  border-radius: 5px;
+}
+
+.card .card-content .title {
+  text-align: center;
+}
+
+.card .card-footer {
+  background: #d45259;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.card .card-footer:hover {
+  background: black;
+}
+
+.control .tags .tag {
+  background-color: #d45259;
+  color: white;
+  padding: 5px;
+  align-items: column;
+  font-size: 15px;
+}
